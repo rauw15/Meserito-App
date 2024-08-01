@@ -1,0 +1,97 @@
+/* Importar la fuente desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Contenedor principal de la selección de mesas */
+.table-selection-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Roboto', sans-serif; /* Fuente aplicada aquí */
+}
+
+/* Estilo del título */
+h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+  font-family: 'Roboto', sans-serif; /* Fuente aplicada aquí */
+}
+
+/* Contenedor de las mesas */
+.tables {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+/* Estilo de cada mesa */
+.table {
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: 'Roboto', sans-serif; /* Fuente aplicada aquí */
+}
+
+/* Estilos para los colores de las mesas */
+.table.red {
+  background-color: #e74c3c;
+}
+
+.table.blue {
+  background-color: #3498db;
+}
+
+.table.green {
+  background-color: #2ecc71;
+}
+
+.table.yellow {
+  background-color: #f1c40f;
+}
+
+/* Mesa seleccionada */
+.table.selected {
+  transform: scale(1.1);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo del botón */
+button {
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, transform 0.2s;
+  font-family: 'Roboto', sans-serif;
+}
+
+button:disabled {
+  background-color: #ccc;
+}
+
+button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+button:active:not(:disabled) {
+  transform: scale(0.98);
+}

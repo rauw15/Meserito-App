@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+    margin: 0;
+    font-family: 'Comfortaa';
+    background-color: rgb(213, 213, 223);
+}
+
+.Section-NotFound{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.Caption-NotFound{
+    margin-bottom: 22.5%;
+    margin-left: 5%;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 1.7em;
+}
+.Person-NotFound{
+    margin-left: 5%;
+}
+.Esperar-NotFound{
+    width: 6%;
+    border-radius: 10em;
+    margin-bottom: 30%;
+    margin-left: -10%;
+    filter: hue-rotate(-180deg);
+}

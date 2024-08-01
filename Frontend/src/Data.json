@@ -1,0 +1,62 @@
+[
+    {
+      "id": "1",
+      "title": "Hamburguesa Clásica",
+      "des": "dlaksnnnnnnnaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "img": "../src/assets/img/hamburguesas1.jpg",
+      "price": 5.99
+
+    },
+    {
+      "id": "2",
+      "title": "Pizza Margarita",
+      "des": "dlaksnnnnnnnaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "img": "../src/assets/img/hamburguesas1.jpg",
+      "price": 5.99
+
+    },
+    {
+      "id": "3",
+      "title": "Ensalada César",
+      "des": "dlaksnnnnnnnaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "img": "../src/assets/img/hamburguesas1.jpg",
+      "price": 5.99
+      
+    },
+    {
+      "id": "4",
+      "title": "Tacos de Pollo",
+      "des": "dlaksnnnnnnnaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "img": "../src/assets/img/hamburguesas1.jpg",
+      "price": 5.99
+
+    },
+    {
+      "id": "5",
+      "title": "Refresco de Cola",
+      "des": "dlaksnnnnnnnaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "img": "../src/assets/img/hamburguesas1.jpg",
+      "price": 5.99
+    },
+    {
+      "id": "6",
+      "title": "Agua Mineral",
+      "des": "dlaksnnnnnnnaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "img": "../src/assets/img/hamburguesas1.jpg",
+      "price": 5.99
+    },
+    {
+      "id": "7",
+      "title": "Pastel de Chocolate",
+      "des": "dlaksnnnnnnnaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "img": "../src/assets/img/hamburguesas1.jpg",
+      "price": 5.99
+    },
+    {
+      "id": "8",
+      "title": "Helado de Vainilla",
+      "des": "dlaksnnnnnnnaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "img": "../src/assets/img/hamburguesas1.jpg",
+      "price": 5.99
+    }
+]

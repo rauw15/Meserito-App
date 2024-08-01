@@ -1,0 +1,66 @@
+/* Inventario.css */
+
+.inventory-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Roboto', sans-serif;
+}
+
+.table-container {
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #333;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.inventory-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.inventory-table th, .inventory-table td {
+  padding: 12px;
+  text-align: left;
+}
+
+.inventory-table thead {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.inventory-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.inventory-table tbody tr:hover {
+  background-color: #eaeaea;
+}
+
+.inventory-table th {
+  font-weight: 700;
+}
+
+.inventory-table td {
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .inventory-table th, .inventory-table td {
+    padding: 8px;
+    font-size: 14px;
+  }
+}

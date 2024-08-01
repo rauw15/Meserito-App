@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+
+li {
+    list-style-type: none;
+}
+.default-layout{
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    width: 100%;
+    height: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    animation: slide-down .5s ease-in-out;
+    transition: .5s;
+}
+.default-layout .link{
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: regular;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: .5s;
+}
+.dropdown-menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 3em;
+    padding: 2em;
+}
+.dropdown-menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-left: -2.7%;
+}
+.dropdown-menu ul li{
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 5em;
+    transition: .5s;
+}
+.dropdown-menu ul li:hover{
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+}
+
+@keyframes slide-down {
+    from {
+      transform: translateY(-50%);
+    }
+  
+    to {
+      transform: translateY(0);
+    }
+}
+.section-decoration{
+    height: 2em;
+    background-color: white;
+}
+.decoration-line{
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(45deg, #0F58C6 0%, #FFFFFF 100%);
+}
+.circleAnimation{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-left: 40%;
+    margin-top: -30%;
+    background: linear-gradient(-30deg, #15B7B9, #215FBC);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    filter: blur(80px);
+    z-index: 1;
+
+
+}
+.circleAnimation-2{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    margin-left: 35%;
+    border-radius: 50%;
+    background: linear-gradient(-30deg, #FFB703, #FFFFFF);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    filter: blur(60px);
+    z-index: 1;
+
+}
+.circleAnimation-3{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    margin-right: 35%;
+    margin-top: 15%;
+    border-radius: 50%;
+    background: linear-gradient(45deg, #15B7B9, #FFFFFF);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    filter: blur(20px);
+    z-index: 1; 
+
+}
+
+.circleAnimation-4{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-top: 30%;
+    margin-right: 30%;
+    background: linear-gradient(45deg, #9E71FF 20%, #03FF4A );
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    filter: blur(20px);
+    z-index: 1; 
+
+}

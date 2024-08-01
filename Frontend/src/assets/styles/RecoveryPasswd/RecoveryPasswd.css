@@ -1,0 +1,104 @@
+.section-recovery{
+    width: 100%;
+    min-height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3em;
+    font-family: 'Raleway', sans-serif;
+
+    background: #bb9367 ;
+    background-position: center;
+    background-size: cover;
+}
+.section-recovery-div-1{
+    position: relative;
+    background: white;
+    border-radius: 20px;
+    width: 90%;
+    height: 60vh;
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div-logo-solo{
+    text-align: center;
+    margin-top: -30%;
+    margin-bottom: 10%;
+}
+.logo-img{
+    width: 30%;
+}
+.respuesta{
+    font-size: 12px;
+}
+.title-recuperacion{
+    text-align: center;
+}
+.title-recuperacion-dos{
+    margin-top: 3%;
+    text-align: center;
+    margin-bottom: 20%;
+}
+.inputbox{
+    position: relative;
+    width: 310px;
+    border-bottom: 2px solid #000000;
+}
+.inputbox .label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+
+    transform: translateY(-50%);
+    color: #000000;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+}
+.input:focus ~ label{
+    top: -5px;
+}
+.input.input:valid ~ label{
+    top: -5px;
+}
+.input:invalid ~ label{
+    top: -5px;
+    color: rgb(163, 0, 0);
+}
+.inputbox .input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 15px 0 10px;
+    color: #000000;
+}
+.inputbox ion-icon{
+    position: absolute;
+    right: 8px;
+    color: #ebcd75;
+    font-size: 1.2em;
+    top: 20px;
+}
+.respuesta,
+a{
+    display: none;
+}
+.enviar{
+    color: white;
+    margin-top: 10px;
+    width: 30%;
+    height: 30px;
+    background-color: #0b85fe;
+    border: none;
+    border-radius: 5px;
+    transition: .5s;
+}
+.enviar:hover{
+    
+    background-color:#095bac;
+}

@@ -1,0 +1,112 @@
+.admin-product-page {
+    padding: 20px;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .product-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .product-box {
+    width: 1200px;
+    margin: 30px;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 130px;
+    display: flex; /* Utiliza flexbox para colocar los elementos en línea */
+    align-items: center;
+    justify-content: space-between;
+    background-color: #DFFFF4;
+    }   
+  
+  .edit-form input {
+    margin-bottom: 5px;
+  }
+  
+  .product-img {
+    width: 250px;
+    height: 200px;
+    margin-bottom: 10px;
+    border-radius:11px;
+    
+ 
+  }
+  .img-container{
+
+    padding: 30px 100px;
+    width: 500px;  
+  }
+  .product-info {
+    margin-bottom: 10px;
+    margin-left: 550px;
+    margin-top: -250px;
+    padding: 30px 70px ;
+    width: max-content;
+    height: max-content;
+    font-weight: bold;
+
+  }
+
+  .product-description{
+    padding: 30px 70px;
+    width: max-content;
+    margin-left: 550px;
+    margin-top: -0px;
+    font-weight: bold;
+  }
+
+  .price-product{
+    margin-bottom: 10px;
+    margin-left: 550px;
+    padding: 10px 70px ;
+    width: max-content;
+    height: max-content;
+    font-weight: 200;
+  }
+  
+  .button-container {
+    display: flex;
+    width: auto;
+
+  }
+  
+  .edit-b {
+    background-color: #ff8800;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    margin-right: px;
+    width: 1120px;
+    border-radius: 11px;
+  }
+  
+  .delete-b {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    border-radius: 11px;
+  }
+  
+  .floating-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    width: 250px;
+    height: 70px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .floating-button:hover {
+    background-color: orange;
+  }
+  

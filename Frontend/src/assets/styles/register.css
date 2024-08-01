@@ -1,0 +1,51 @@
+
+.section-register{
+    background: linear-gradient(45deg, #C3DBFF, #C3DBFF, #FFFFFF);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Montserrat", sans-serif;
+    z-index: -1;
+}
+
+.register-box{
+    width: 550px;
+    height: auto;
+    padding: 50px 50px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: ;
+}
+
+
+.section-register-div-2{
+    width: 550px;
+    height: auto;
+    padding: 50px 50px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 1;
+}
+.layout-mini h1{
+    color: white
+    font-weight: 400;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.login-box img{
+    width: 50%;
+}

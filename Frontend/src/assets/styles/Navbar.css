@@ -1,0 +1,64 @@
+.navbar {
+    background-color: #15B7B9;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    max-width: 1100px;
+    padding: 0 24px;
+  }
+  
+  .navbar-logo {
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+  
+  .nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+  }
+  
+  .nav-item {
+    margin-right: 100px;
+  }
+  .nav-links {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    
+  }
+  
+  .nav-links:hover {
+    color: #ff4500; 
+  }
+  
+  .nav-links:focus {
+    outline: none; 
+  }
+  
+  .nav-links:active {
+    color: #ffa500; 
+  }
+
+  
+.sesion-icon {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: 70%;
+}
+
+.sesion-icon .nav-links {
+  padding: 0;
+}
+  
